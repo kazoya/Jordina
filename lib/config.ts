@@ -28,6 +28,11 @@ export const siteConfig = {
   hoursAr: "ساعات الدوام الداخلي غير منشورة على الموقع",
   addressAr: "القسطل بجانب بوابة الشحن الجوي، عمّان",
   promiseAr: "قائمة تصدير موسمية لا تُرسل لعميل جديد إلا بعد اعتمادك",
+  engine: "تصدير وموزّعون",
+  gap: "الموقع يكرر نصوصاً إنجليزية ويظهر قوالب «CONTACT US CONTENT». فرصة هوية لا هجوم.",
+  industry: "آيس كريم ومخبوزات ورقائق منذ 1999",
+  hero: "مستورد العراق لا يشتري آيس كريم من كتالوج مكسور. يشتري خطة صيف وأنت توافق على السعر",
+  websiteHost: "jordinajo.com",
   developer: { nameAr: "م. صهيب الصالح", phone: "962787523192", prefill: "Jordina" },
 } as const;
 export function getDiscoveryFormUrl(): string { return readPublic("NEXT_PUBLIC_DISCOVERY_FORM_URL"); }
